@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+	* {
+		color: white;
+		font-family: Satoshi;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+@theme {
+	--color-block-bg: #2121216e;
+	--color-block-bg-sec: #121212;
+	--color-block-border: #353535;
+	--color-text: #fff;
+	--color-text-sec: #737373;
+}
+
+@layer components {
+	.style-block {
+		@apply bg-block-bg rounded-lg border-1 border-block-border backdrop-blur-[4px] pt-8 pl-6 pb-5 pr-3 hover:border-[#4e4e4e] transition-colors duration-200 shadow-2xl/20;
+	}
+}
+
+@font-face {
+	font-family: Satoshi;
+	src: url(./assets/fonts/Satoshi-Variable.ttf);
+}
