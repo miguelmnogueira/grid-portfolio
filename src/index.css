@@ -11,7 +11,6 @@
 
 @theme {
 	--color-block-bg: #2121216e;
-	--color-block-bg-sec: #121212;
 	--color-block-border: #353535;
 	--color-text: #fff;
 	--color-text-sec: #737373;
@@ -26,4 +25,12 @@
 @font-face {
 	font-family: Satoshi;
 	src: url(./assets/fonts/Satoshi-Variable.ttf);
+}
+
+@font-face {
+	font-family: Zodiak;
+	src: url(./assets/fonts/Zodiak-Variable.ttf);
+}
+
+@layer utilities {
 }
