@@ -53,7 +53,7 @@ const MainPage = () => {
 	return (
 		<div
 			className="absolute -z-10 inset-0 h-full w-full 
-  bg-[radial-gradient(circle,#29292954_2px,transparent_3px),linear-gradient(to_bottom,#100f0f,#1a1818)] 
+  bg-[radial-gradient(circle,#29292954_2px,transparent_3px),linear-gradient(to_bottom,#100f0f,#161616)] 
   bg-[size:30px_30px,100%] flex justify-center pt-10 pb-25 overflow-hidden"
 		>
 			<main
